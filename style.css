@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Box model next day */
+}
+body {
+    background-image: url(./images/misty_mountain_peaks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* , linear-gradient(to right, #d90166, #ef3038) */
+.formDiv {
+  background-color: white;
+  border-radius: 2%;
+  width: 50%;
+  margin: 10% auto;
+  padding: 50px;
+}
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10%;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.cap {
+  text-transform: uppercase;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  border: 0;
+  border-radius: 3%;
+  width: 50%;
+  text-transform: capitalize;
+  background-image: linear-gradient(to right, #d90166, #ef3038);
+}
+textarea {
+  height: 100px;
+}
+footer {
+    font-size: 10px;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  font-family: sans-serif;
+}
